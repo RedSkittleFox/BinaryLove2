@@ -65,7 +65,7 @@ int main()
 
     std::printf("This wav file has %i channels.\nAudio duration is %fs\n", num_channels, duration);
 
-    std::vector<char> out_buffer = wav_file.unparse<char>();
+    std::vector<uint8_t> out_buffer = wav_file.unparse<uint8_t>();
 
     std::ofstream ofile("out.wav", std::ios::binary | std::ios::trunc);
     if (ofile.bad()) return -1;
