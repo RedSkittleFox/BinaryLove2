@@ -1,0 +1,5 @@
+.vs/
+Debug/
+Samples/Debug
+*/x64/
+*.user

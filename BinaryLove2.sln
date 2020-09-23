@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryLove2", "BinaryLove2.vcxitems", "{005FF643-7872-4F07-86CF-7750DEE0DDBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryLove2-samples", "samples\BinaryLove2-samples.vcxproj", "{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BinaryLove2.vcxitems*{005ff643-7872-4f07-86cf-7750dee0ddbd}*SharedItemsImports = 9
+		BinaryLove2.vcxitems*{3f76dd6b-cb56-4a17-96cc-8919f15dcdaf}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}.Debug|x64.ActiveCfg = Debug|x64
+		{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}.Debug|x64.Build.0 = Debug|x64
+		{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}.Debug|x86.Build.0 = Debug|Win32
+		{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}.Release|x64.ActiveCfg = Release|x64
+		{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}.Release|x64.Build.0 = Release|x64
+		{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}.Release|x86.ActiveCfg = Release|Win32
+		{3F76DD6B-CB56-4A17-96CC-8919F15DCDAF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48696083-E48E-4553-BC2B-45FE09E77B0B}
+	EndGlobalSection
+EndGlobal
