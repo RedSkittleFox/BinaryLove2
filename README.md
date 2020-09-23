@@ -28,6 +28,7 @@ int main()
 
     ifile.close();
 
+    // Source: http://soundfile.sapp.org/doc/WaveFormat/
     typedef
         layout <
             group<                                  // The "RIFF" chunk descriptor
