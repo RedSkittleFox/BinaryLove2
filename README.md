@@ -5,6 +5,14 @@ BinaryLove2 is a simple header-only binary parsing library.
 Please check out samples/ folder to see propper usage of the library.
 
 ```cpp
+#include <array>
+#include <fstream>
+#include <vector>
+#include <cstdio>
+
+#include <BinaryLove2.hpp>
+using namespace BinaryLove2;
+
 int main()
 {
     std::ifstream ifile("Magical Moonlight - Pierro Umiliani.wav", std::ios::binary | std::ios::ate);
